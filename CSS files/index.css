@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(160deg, #153677, #c97bdc);
+}
+.pro_photo{
+    position: absolute;
+    top: 5%;
+    left: 39%;
+    border-radius: 52%;
+    height: 350px;
+    width: auto;
+}
+.nav{
+    color: white;
+    font-size: 18px;
+}
+.name{
+    position: absolute;
+    left: 6%;
+    top: 4%;
+}
+.intro{
+    position:absolute;
+    top: 60%;
+    font-size: 15px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    left: 13%;
+}
+.skills{
+    position: absolute;
+    left: 70%;
+    top: 4%;
+}
+.projects{
+    position: absolute;
+    left: 75%;
+    top: 4%;
+}
+.cont{
+    position: absolute;
+    left: 81%;
+    top: 4%
+}

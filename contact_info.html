@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./CSS files/contact.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="name"><a href="index.html"  style="text-decoration: none;">
+          <pre style="font-family: 'Pacifico', cursive;color: white;">VEDANT THAKKAR</pre>
+          <pre style="font-family: 'Pacifico', cursive;color: white;">Front-End Developer</pre></a>
+        </div>
+        <div class="skills">
+       <a href="skills.html" style="text-decoration: none;"><pre style="font-family: 'Pacifico', cursive; color: white;">Skills</pre></a>
+        </div>
+        <div class="projects">
+          <a href="projects.html"  style="text-decoration: none;">
+          <pre style="font-family: 'Pacifico', cursive; color: white;">Projects</pre></a>
+        </div>
+        <div class="cont" ><a href="#" style="text-decoration: none;">
+          <pre style="font-family: 'Pacifico', cursive; color: white;"">Contact Information</pre></a>
+        </div>
+      </div>
+      <button onclick="redirectToGmail()" class="btn">Open Gmail</button>
+      <button onclick="mobilealert()" class="btn" style="margin-left: 35%;">Click to get mobile number</button>
+      <div class="info">
+        <pre style="font-family: 'Pacifico', cursive;color: white;">
+        Contact Me 
+            Via
+        </pre>
+      </div>
+</body>
+</html>
+<script>
+    function mobilealert() {
+        alert('+91 8320067833')
+    }
+    function redirectToGmail() {
+            var recipientEmail = "vedant8003@gmail.com";
+      var gmailUrl = "https://mail.google.com/mail/?view=cm&fs=1&to=" + recipientEmail;
+      window.open(gmailUrl, "_blank");}
+</script>
